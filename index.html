@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyrus Video Tunnel</title>
+    <style>
+        video {
+            width: 500px;
+            aspect-ratio: 9/6;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cyrus-root"></div>
+    <script src="cyrusWizard/cyrusAssets/script.js"></script>
+    <small>The Runnova Cyrus Project &bull; Minimal CSS page.</small>
+    <h1>Cyrus video tunnel</h1>
+    <p>Demonstration for tunnelling video through a cyrus peerJS p2p connection.</p>
+    <h2>Application</h2>
+    <span>Video Source: </span><input type="file" id="videoSource">
+    <p>Role: <span id="roleSpan">Sender</span></p>
+    <video src="assets/sample.webm" controls></video>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
